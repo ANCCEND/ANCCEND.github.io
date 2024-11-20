@@ -194,3 +194,8 @@ a{
     text-decoration: none;
     color: black;
 }
+
+::selection{
+    color: aliceblue;
+    background-color: rgb(138, 90, 26);
+}

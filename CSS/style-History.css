@@ -194,3 +194,7 @@ a:visited{
     color: rgb(138, 90, 26);
 }
 
+::selection{
+    color: aliceblue;
+    background-color: rgb(138, 90, 26);
+}

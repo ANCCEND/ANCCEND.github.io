@@ -217,3 +217,9 @@ img{
 .img2{
     width: 50%;
 }
+
+::selection{
+    color: aliceblue;
+    background-color: rgb(138, 90, 26);
+}
+

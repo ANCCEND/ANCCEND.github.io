@@ -172,3 +172,7 @@ body{
     border-bottom: 1px solid black;
 }
 
+::selection{
+    color: aliceblue;
+    background-color: rgb(138, 90, 26);
+}
