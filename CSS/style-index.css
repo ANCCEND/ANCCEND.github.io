@@ -130,3 +130,24 @@ a{
     color: aliceblue;
     background-color: rgb(138, 90, 26);
 }
+
+.logout{
+    position: fixed;
+    width: 7vw;
+    height: 5vh;
+    font-size: 1.1vw;
+    font-weight: 600;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    right: 2vw;
+    top:5vh;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.logout:hover{
+    color: rgb(187, 152, 109);
+    transform: translateX(-5px);
+    border-color: rgb(187, 152, 109);
+}
+
